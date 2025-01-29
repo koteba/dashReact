@@ -1,0 +1,123 @@
+
+.form_container {
+    margin-top: 100px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.form_container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.form-group input[type="file"] {
+    border: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-group button {
+    background-color: #4e8cfb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.column_input {
+    width: 505px;
+    top: 161px;
+    left: 262px;
+    gap: 24px;
+}
+
+.column_image {
+    width: 475px;
+    background-color: #FFFFFF;
+}
+
+.form-group button:hover {
+    background-color: #3a6dc9;
+}
+
+
+.column_image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_group {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+.upload-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #4e8cfb;
+    text-align: center;
+}
+
+
+.upload-icon {
+    margin-bottom: 10px;
+    color: #4e8cfb;
+}
+
+.upload-label span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none;
+}
