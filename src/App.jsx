@@ -11,6 +11,8 @@ function App() {
     <>
       {/* <Dashbord /> */}
       <Routes>
+        <Route path="*" element={<NotFound />} />
+
         <Route
           path="/DASH"
           element={<Dashbord mass="AllProducts" />}
